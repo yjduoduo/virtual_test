@@ -2,6 +2,10 @@
 #include <stdio.h>
 #include <assert.h>
 #include "strcpy.h"
+#include "strlen.h"
+#include "define_type.h"
+
+
 
 
 using namespace std;
@@ -45,6 +49,10 @@ int main()
     a.x[0]=10;
     a.x[1]=1;
     printf("%d\n",a.i);
+
+    char buf[128];
+    strcpy(buf,"nihoamaa");
+    printf("%s\n",buf);
 
 
 
